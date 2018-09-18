@@ -60,7 +60,7 @@ function touchMoved() {
 
 var Slinky = function() {
         this.radius = 1;
-        this.numExtensions = 50;
+        this.numExtensions = 100;
         this.clicked = false;
 
         this.pos = createVector(500,530);
