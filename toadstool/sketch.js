@@ -24,7 +24,7 @@ function setup() {
 
 function draw() {
 
-        //background(trumpImage);
+        background(255,255,255);
 
         //print("x: ", mouseX, " y: ", mouseY);
         xScale = windowWidth;
