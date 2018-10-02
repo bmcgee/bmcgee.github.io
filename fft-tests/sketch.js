@@ -27,7 +27,7 @@ var drywet_fade = 0;
 let visible = true;
 let gui;
 
-var capturer = new CCapture( { format: 'png' } );
+//var capturer = new CCapture( { format: 'png' } );
 
 function preload() {
 
@@ -118,9 +118,6 @@ function keyPressed() {
                         logView = !logView;
                 case 'k':
                         spectView = !spectView;
-                case 'c':
-                        capturer.start();
-                        console.log('capture start');
 
 
         }
